@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Deep Research AI System</title>
+    <link rel="stylesheet" href="/static/galaxy-theme.css">
+    <style>
+        .text-center { text-align: center; }
+        .mb-12 { margin-bottom: 3rem; }
+        .mb-4 { margin-bottom: 1rem; }
+        .mb-6 { margin-bottom: 1.5rem; }
+        .text-4xl { font-size: 2.25rem; }
+        .text-lg { font-size: 1.125rem; }
+        .font-bold { font-weight: bold; }
+        .w-full { width: 100%; }
+        .hidden { display: none; }
+        .mx-auto { margin-left: auto; margin-right: auto; }
+        .mt-4 { margin-top: 1rem; }
+    </style>
+</head>
+<body>
+    <nav class="nav">
+        <div class="container">
+            <div class="nav-links">
+                <a href="#" class="nav-link">Home</a>
+                <a href="#" class="nav-link">Research</a>
+                <a href="#" class="nav-link">About</a>
+                <a href="#" class="nav-link">Contact</a>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container">
+        <header class="text-center mb-12">
+            <h1 class="text-4xl font-bold mb-4">Deep Research AI System</h1>
+            <p class="text-lg">Explore the universe of knowledge with AI-powered research</p>
+        </header>
+
+        <div class="card">
+            <div class="mb-6">
+                <label class="block mb-2">Research Query</label>
+                <textarea id="query" rows="3" class="input" placeholder="Enter your research question..."></textarea>
+            </div>
+            <div class="mb-6">
+                <label class="block mb-2">Search Depth</label>
+                <input type="number" id="depth" value="2" min="1" max="5" class="input">
+            </div>
+            <button onclick="startResearch()" class="button w-full">
+                Start Research
+            </button>
+        </div>
+
+        <div id="results" class="hidden">
+            <div class="card">
+                <h2 class="text-2xl font-bold mb-4">Research Results</h2>
+                <div id="synthesis" class="prose mb-6"></div>
+                
+                <div class="mb-6">
+                    <h3 class="text-xl font-bold mb-2">Knowledge Graph</h3>
+                    <div id="graph" class="w-full h-96 bg-opacity-10 bg-white rounded-lg"></div>
+                </div>
+                
+                <div>
+                    <h3 class="text-xl font-bold mb-2">Sources</h3>
+                    <div id="sources" class="space-y-2"></div>
+                </div>
+            </div>
+        </div>
+
+        <div id="loading" class="hidden text-center">
+            <div class="loading mx-auto"></div>
+            <p class="mt-4">Researching across the cosmos...</p>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/d3@7"></script>
+    <script src="/static/galaxy-theme.js"></script>
+    <script src="/static/script.js"></script>
+</body>
+</html> 
