@@ -1,0 +1,30 @@
+2025-03-06 11:13:36,460 [DEBUG] asyncio - Using proactor: IocpProactor
+2025-03-06 11:13:36,462 [INFO] __main__ - Starting server on http://localhost:5000
+2025-03-06 11:13:36,462 [DEBUG] asyncio - Using proactor: IocpProactor
+2025-03-06 11:13:36,465 [WARNING] hypercorn.error - ASGI Framework Lifespan error, continuing without Lifespan support
+2025-03-06 11:13:36,466 [INFO] hypercorn.error - Running on http://0.0.0.0:5000 (CTRL + C to quit)
+2025-03-06 11:27:44,456 [DEBUG] asyncio - Using proactor: IocpProactor
+2025-03-06 11:27:44,458 [INFO] __main__ - Starting server on http://localhost:5000
+2025-03-06 11:27:44,459 [DEBUG] asyncio - Using proactor: IocpProactor
+2025-03-06 11:27:44,460 [WARNING] hypercorn.error - ASGI Framework Lifespan error, continuing without Lifespan support
+2025-03-06 11:27:44,462 [INFO] hypercorn.error - Running on http://0.0.0.0:5000 (CTRL + C to quit)
+2025-03-06 11:33:22,302 [DEBUG] asyncio - Using proactor: IocpProactor
+2025-03-06 11:33:22,304 [INFO] __main__ - Starting server on http://localhost:5000
+2025-03-06 11:33:22,305 [DEBUG] asyncio - Using proactor: IocpProactor
+2025-03-06 11:33:22,306 [WARNING] hypercorn.error - ASGI Framework Lifespan error, continuing without Lifespan support
+2025-03-06 11:33:22,307 [INFO] hypercorn.error - Running on http://0.0.0.0:5000 (CTRL + C to quit)
+2025-03-06 22:53:09,919 [DEBUG] asyncio - Using proactor: IocpProactor
+2025-03-06 22:53:09,921 [INFO] __main__ - Starting server on http://localhost:5000
+2025-03-06 22:53:09,922 [DEBUG] asyncio - Using proactor: IocpProactor
+2025-03-06 22:53:09,923 [WARNING] hypercorn.error - ASGI Framework Lifespan error, continuing without Lifespan support
+2025-03-06 22:53:09,925 [INFO] hypercorn.error - Running on http://0.0.0.0:5000 (CTRL + C to quit)
+2025-03-07 00:30:44,524 [DEBUG] asyncio - Using proactor: IocpProactor
+2025-03-07 00:30:44,526 [INFO] __main__ - Starting server on http://localhost:5000
+2025-03-07 00:30:44,526 [DEBUG] asyncio - Using proactor: IocpProactor
+2025-03-07 00:30:44,553 [WARNING] hypercorn.error - ASGI Framework Lifespan error, continuing without Lifespan support
+2025-03-07 00:30:44,556 [INFO] hypercorn.error - Running on http://0.0.0.0:5000 (CTRL + C to quit)
+2025-03-07 00:37:59,858 [DEBUG] asyncio - Using proactor: IocpProactor
+2025-03-07 00:37:59,859 [INFO] __main__ - Starting server on http://localhost:5000
+2025-03-07 00:37:59,859 [DEBUG] asyncio - Using proactor: IocpProactor
+2025-03-07 00:37:59,860 [WARNING] hypercorn.error - ASGI Framework Lifespan error, continuing without Lifespan support
+2025-03-07 00:37:59,860 [INFO] hypercorn.error - Running on http://0.0.0.0:5000 (CTRL + C to quit)
